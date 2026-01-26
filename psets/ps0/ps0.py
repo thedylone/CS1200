@@ -46,9 +46,9 @@ def calculate_sizes(v):
 #
 
 # Input: a positive integer t, 
-# ...BTvertex v, the root of a BinaryTree of size n >= 1
+# ...BTvertex v, the root of a BinaryTree of size n >= 2t+1
 # Output: BTvertex, descendent of v such that its size is between 
-# ... t and 2t (inclusive)
+# ... t and 2t-1 (inclusive)
 # Runtime: O(h) 
 
 def FindDescendantOfSize(t, v):
